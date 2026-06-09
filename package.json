@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-sgd",
+  "version": "0.1.0",
+  "description": "SGD (Saccharomyces Genome Database) MCP.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "sgd"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-sgd"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
