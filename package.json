@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-sgd",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "SGD (Saccharomyces Genome Database) MCP.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-sgd": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "sgd"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-sgd.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/sgd",
   "pipeworx": {
-    "sourceHash": "v1-cda3738999d57d71b01ff195aacdae7fc90a64b1826bd2b36ccd5e62dc5db77d",
-    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
+    "mode": "gateway",
+    "slug": "sgd",
+    "gatewaySlug": "sgd",
+    "sourceHash": "v1-a5897fb8aa99e2bdb376d2a3e3371ddd014aa832ef7763a81faae2314eeceb36",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
