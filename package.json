@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-sgd",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "SGD (Saccharomyces Genome Database) MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "sgd",
     "gatewaySlug": "sgd",
-    "sourceHash": "v1-a5897fb8aa99e2bdb376d2a3e3371ddd014aa832ef7763a81faae2314eeceb36",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-93b017a095801511b541f9f1b8cf9d97f62789d08b176e8d69e51837e961c717",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }
